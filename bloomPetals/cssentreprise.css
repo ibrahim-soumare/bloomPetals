@@ -1,0 +1,77 @@
+/* Réinitialisation des styles pour garantir une base propre */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url(/Users/ibrah/Documents/bloomPetals/image/fond.png);
+}
+
+/* Styles pour l'en-tête et la navigation */
+header {
+    background-color: #e44056;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles pour les titres */
+h1, h2, h3 {
+    text-align: center; 
+    
+}
+
+/* Styles pour la section de description de l'équipe */
+.descriptionequipe {
+  /*  background-color: #fff;
+    border: 1px solid #ddd; */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Styles pour la section des photos de l'équipe */
+.photomembre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.team-member {
+    text-align: center;
+    margin: 10px;
+}
+
+.team-member img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #e44056;
+    color: #fff;
+    padding: 20px;
+}
+

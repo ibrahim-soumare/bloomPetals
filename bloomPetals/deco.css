@@ -1,0 +1,119 @@
+/* Réinitialisation des styles pour garantir une base propre */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles de base pour le corps de la page */
+body {
+    font-family: Teko, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url(/Users/ibrah/Documents/bloomPetals/image/fond.png);
+   
+}
+
+/* Styles pour l'en-tête et la navigation */
+header {
+    background-color: #e44056;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles pour le titre principal */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0;
+    font-family: Pacifico, sans-serif; 
+}
+
+/* Styles pour la description de l'entreprise */
+p {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Styles pour les services */
+h2 {
+   text-align: center; 
+    font-size: 24px;
+    margin: 20px 0; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+/*  background-color: #fff; 
+    border: 1px solid #ddd; */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px; 
+    
+   
+    
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+
+    font-size: 20px;
+    font-family: Griffy, sans-serif; 
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url(/Users/ibrah/Documents/bloomPetals/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Griffy';
+    src: url(/Users/ibrah/Documents/bloomPetals/Griffy/Griffy-Regular.ttf);
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url(/Users/ibrah/Documents/bloomPetals/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: 'Teko';
+    src: url(/Users/ibrah/Documents/bloomPetals/Teko.zip);
+}
+
+.ok {
+    margin: 30px;
+}
+
+footer {
+    background-color: #e44056;
+    color: #fff;
+    padding: 20px;
+}
+
